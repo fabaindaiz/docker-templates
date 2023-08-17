@@ -1,5 +1,4 @@
 FROM ocaml/opam:ubuntu-20.04
-
 ENV SHELL=/bin/bash
 
 USER root
@@ -29,7 +28,5 @@ RUN opam install -y \
   ocaml-lsp-server
 
 #RUN dune build --watch --terminal-persistence=clear-on-rebuild
-
-VOLUME /home/opam
 
 WORKDIR /home/opam
