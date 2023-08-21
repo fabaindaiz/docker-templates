@@ -1,1 +1,1 @@
-docker build -t "ocaml-compiler" .
+docker build -t "ocaml-template" .
