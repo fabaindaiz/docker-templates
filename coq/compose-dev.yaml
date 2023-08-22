@@ -1,6 +1,6 @@
 services:
   app:
-    image: coq-template
+    image: coqorg/coq
     entrypoint:
     - sleep
     - infinity

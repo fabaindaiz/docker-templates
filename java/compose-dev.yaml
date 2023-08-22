@@ -1,6 +1,6 @@
 services:
   app:
-    image: ocaml/opam
+    image: eclipse-temurin
     entrypoint:
     - sleep
     - infinity
